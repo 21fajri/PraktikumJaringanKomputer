@@ -6,7 +6,7 @@ Sebelum memulai praktikum di modul 2 yang Dimana akan melakukan pengecekan traff
 ### A. WireShark
 1. Pada web browser mengetikkan situs resmi milik wireshark wireshark.org kemudian mengeklik tombol Download now.
 <img src="../assets/week1/INSTALL WIRESHARK/1.png" width="500" height="300" hspace="33">
-2. Pada tampilan seperti dibawah ini mengeklik salah satu installer yang support sesuai OS yang dimiliki salah satu   contohnya disini akan di install yaitu Windows x64 Installer.
+2. Pada tampilan seperti dibawah ini mengeklik salah satu installer yang support sesuai OS yang dimiliki salah satu contohnya disini akan di install yaitu Windows x64 Installer.
 <img src="../assets/week1/INSTALL WIRESHARK/2.png" width="500" height="300" hspace="33">
 3. Menyimpan tempat file wireshark yang akan di install. Pada tahapan ini diusahakan memiliki tempat penyimpanan yang cukup juga supaya tidak terjadi sebuah trouble kedepannya. Setelah selesai mengeklik tombol save.
 <img src="../assets/week1/INSTALL WIRESHARK/3.png" width="500" height="300" hspace="33">
