@@ -1,6 +1,6 @@
 # Laporan Jaringan Komputer Informatika Week 1
 
-<div align="justify">Sebelum memulai praktikum di modul 2 yang Dimana akan melakukan pengecekan traffic pada interface yang terhubung pada divice menggunakan wireshark ataupun python terlebih dahulu melakukan instalasi yang sudah disediakan oleh modul 1. Berikut tahapan cara melakukan instalasi software tersebut yaitu.
+<div align="justify">   Sebelum memulai praktikum di modul 2 yang Dimana akan melakukan pengecekan traffic pada interface yang terhubung pada divice menggunakan wireshark ataupun python terlebih dahulu melakukan instalasi yang sudah disediakan oleh modul 1. Berikut tahapan cara melakukan instalasi software tersebut yaitu.
 </div>
 
 ## Instalasi Software
