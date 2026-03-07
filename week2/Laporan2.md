@@ -21,6 +21,6 @@
 6. <div align="justify">Terlihat seperti gambar dibawah dengan ada angka 200 dan infomasi “OK” menandakan pengiriman atau request antar package berhasil dilakukan. Contoh pada gambar dibawah ini juga pada line-based tertera file html yang dimiliki sesuai dengan isi pada website sebelumnya. Dan disebelah kanan yaitu ada package – content yang dimana menampilkan seluruh isi frame yang diambil, baik dalam format ASCII maupun hexadecimal.</div>
 
     <img src="../assets/week2/7.png" width="400" height="300">
-7. <div align="justify">7.	Juga dibawah ini terdapat penjelasan lebih detail atau informasi lebih detail mengenai lalu llintas package pada bagian Hypertext Transfer Protocol dimana ia mendapatkan HTTP GET yang dikirim dari computer kita ke server HTTP dari jendela WireShark yang menunjukan “GET” diikuti oleh URL yang dimasukkan. Saat kita memilih pesan HTTP GET, frame ethernet , datagram IP, segmen TCP, dan informasi header pesan HTTP akan ditampilkan dijendela header package 3.</div>
+7. <div align="justify">7.	Juga dibawah ini terdapat penjelasan lebih detail atau informasi lebih detail mengenai lalu llintas package pada bagian Hypertext Transfer Protocol dimana ia mendapatkan HTTP GET yang dikirim dari computer kita ke server HTTP dari jendela WireShark yang menunjukan “GET” diikuti oleh URL yang dimasukkan. Saat kita memilih pesan HTTP GET, frame ethernet , datagram IP, segmen TCP, dan informasi header pesan HTTP akan ditampilkan dijendela header package 3. </div>
 
     <img src="../assets/week2/8.png" width="400" height="300">
