@@ -34,22 +34,22 @@
     <img src="../assets/week1/INSTALL WIRESHARK/10.png" width="400" height="300">
 
 ### B. Python
-1. Selain wireshark dibutuhkan python yang akan digunakan praktikum di masa yang akan mendatang. Berikut progres dari awal masuk pada web browser untuk melakukan instalasi. Disini bisa langsung masuk pada situs resmi dari python “python.org/downloads/”. Seperti pada gambar dibawah. Disini memilih versi python yang stable agar tidak terjadi bug dikemudia hari. 
+1. <div align="justify">Selain wireshark dibutuhkan python yang akan digunakan praktikum di masa yang akan mendatang. Berikut progres dari awal masuk pada web browser untuk melakukan instalasi. Disini bisa langsung masuk pada situs resmi dari python “python.org/downloads/”. Seperti pada gambar dibawah. Disini memilih versi python yang stable agar tidak terjadi bug dikemudia hari.</div>
 
     <img src="../assets/week1/INSTALL PYTHON/1.png" width="400" height="300">
-2. Jika muncul tampilan seperti dibawah ini memilih version yang installer MSIX bundles yang memiliki file size sebesar 44,1 mb.
+2. <div align="justify">Jika muncul tampilan seperti dibawah ini memilih version yang installer MSIX bundles yang memiliki file size sebesar 44,1 mb.</div>
 
     <img src="../assets/week1/INSTALL PYTHON/2.png" width="400" height="300">
-3. Untuk file name biarkan terisi secara default. Setelah selesai seperti pada gambar dibawah ini memilih tombol save.
+3. <div align="justify">Untuk file name biarkan terisi secara default. Setelah selesai seperti pada gambar dibawah ini memilih tombol save.</div>
 
     <img src="../assets/week1/INSTALL PYTHON/3.png" width="400" height="300">
-4. Membuka file installer dikarenakan disini sebelumnya telah terinstall maka memilih launch python untuk melakukan tahap instalasi selanjutnya pada command line interface atau cmd pada windows.
+4. <div align="justify">Membuka file installer dikarenakan disini sebelumnya telah terinstall maka memilih launch python untuk melakukan tahap instalasi selanjutnya pada command line interface atau cmd pada windows.</div>
 
     <img src="../assets/week1/INSTALL PYTHON/4.png" width="400" height="300">
-5. Memilih N dan biarkan konfigurasi secara default atau tidak melakukan modifikasi pada program python contoh seperti pada gambar dibawah ini
+5. <div align="justify">Memilih N dan biarkan konfigurasi secara default atau tidak melakukan modifikasi pada program python contoh seperti pada gambar dibawah ini</div>
 
     <img src="../assets/week1/INSTALL PYTHON/5.png" width="400" height="300">
-6. Jika instalasi compled seperti pada gambar diatas melakukan check version python yang telah terinstall untuk memastikan bahwa python benar benar telah terinstall seperti pada gambar dibawah ini pada cmd.
+6. <div align="justify">Jika instalasi compled seperti pada gambar diatas melakukan check version python yang telah terinstall untuk memastikan bahwa python benar benar telah terinstall seperti pada gambar dibawah ini pada cmd.</div>
 
     <img src="../assets/week1/INSTALL PYTHON/6.png" width="400" height="300">
 
