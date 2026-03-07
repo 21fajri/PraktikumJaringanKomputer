@@ -5,7 +5,7 @@ Sebelum memulai praktikum di modul 2 yang Dimana akan melakukan pengecekan traff
 ## Instalasi Software
 ### WireShark
 1.	Pada web browser mengetikkan situs resmi milik wireshark wireshark.org kemudian mengeklik tombol Download now.
-<img src="../assets/week1/INSTALL WIRESHARK/1.png" width="500" height="300" hspace="50">
+<img src="../assets/week1/INSTALL WIRESHARK/1.png" width="500" height="300" hspace="30">
 
 
 
