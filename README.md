@@ -1,1 +1,1 @@
-# PraktikumJaringanKomputer
+# Praktikum Jaringan Komputer
