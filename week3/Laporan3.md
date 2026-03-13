@@ -30,3 +30,14 @@
 6. <div align="justify">Berikut dibawah ini juga jika user gagal meminta sebuah permintaan pada server. Maka code nontification akan muncul 404 sesuai dengan penjelasan diatas sebelumnya.</div>
 
     <img src="../assets/week3/6.png" width="400" height="300">
+
+### 3.3 Retrieving Long Documents
+<div align="justify">Disini melanjutkan implementasi seperti contoh diatas namun dengan mengambil dokumen file HTML yang Panjang dengan website yang berbeda. Berikut ini adalah link website yang harus dikunjungin http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file3.html . Implementasi cara yang digunakan juga sama maka disini akan langsung lompat pada bagian pada masuk website dan juga hasilnya.</div>
+
+#### Implementasi
+1. <div align="justify">Mengetikan website yang telah dijabarkan pada HTTP Conditional GET dan memuatnya dengan HTTP tidak dengan HTTPS.</div>
+
+    <img src="../assets/week3/7.png" width="400" height="300">
+1. <div align="justify">Berikut dibawah ini merupakan hasil dari HTML dengan multi TCP segments sebanyak 4 frame. Dimana ini merupakan ukuran yang sangat besar sekisar 4864 byte. Sehingga menunjukan setiap segmen TCP sebagai paket terpisah.</div>
+
+    <img src="../assets/week3/8.png" width="400" height="300">
