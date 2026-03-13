@@ -11,3 +11,22 @@
     * 400: Error atau datanya tidak dapat dijangkau atau tidak ditemukan.
     * 500: Biasanya pada sisi ini kesalahan pada server itu sendiri ntah karena server down karena kebanyakan permintaan, dll.
 * **Content**: biasanya berisikan data yang diminta berupa  HTML, gambar, atau data seperti contohnya JSON. 
+#### Implementasi
+1. <div align="justify">Ini merupakan Langkah awal basic HTTP GET dengan cara masuk pada browser untuk memulai implementasi.</div>
+
+    <img src="../assets/week3/1.png" width="400" height="300">
+2. <div align="justify">Membuka WireShark dan memilih interface Ethernet karena pada praktikum kali ini divice yang dimiliki terhubung langsung dengan LAN.</div>
+
+    <img src="../assets/week3/2.png" width="400" height="300">
+3. <div align="justify">Pada display filter mengetikkan perintah http yang berfungsi agar hanya pesan HTTP yang akan ditampilkan pada daftar paket.</div>
+
+    <img src="../assets/week3/3.png" width="400" height="300">
+4. <div align="justify">Menunggu berkisar satu menit untuk sinkronasi agar wireshark dapat mencatat semua lalu lintas paket data yang lewat yang kemudian lanjut pada web browser untuk masuk pada website http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file1.html sesuai link yang diberikan oleh modul. </div>
+
+    <img src="../assets/week3/4.png" width="400" height="300">
+5. <div align="justify">Berikut dibawah ini adalah hasil gambar catatan lalu lintas dengan filter HTTP yang sudah masuk pada wireshark. Sesuai dengan akses di browser dengan tampilan congratulation maka HTTP akan mengeluarkan status code “200 OK”.</div>
+
+    <img src="../assets/week3/5.png" width="400" height="300">
+6. <div align="justify">Berikut dibawah ini juga jika user gagal meminta sebuah permintaan pada server. Maka code nontification akan muncul 404 sesuai dengan penjelasan diatas sebelumnya.</div>
+
+    <img src="../assets/week3/6.png" width="400" height="300">
