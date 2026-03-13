@@ -10,4 +10,4 @@
     * 200: Menandakan bahwa datanya ada dan berhasil.
     * 400: Error atau datanya tidak dapat dijangkau atau tidak ditemukan.
     * 500: Biasanya pada sisi ini kesalahan pada server itu sendiri ntah karena server down karena kebanyakan permintaan atau lain sebagainya.
-* **Content**: biasanya berisikan data yang diminta berupa kode HTML, gambar, atau data seperti contohnya JSON. 
+* **Content**: biasanya berisikan data yang diminta berupa  HTML, gambar, atau data.
