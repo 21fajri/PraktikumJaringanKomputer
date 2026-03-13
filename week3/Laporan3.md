@@ -9,5 +9,5 @@
 * **Status Code**: Angka tiga digit yang memberi tahu apakah permintaan berhasil.
     * 200: Menandakan bahwa datanya ada dan berhasil.
     * 400: Error atau datanya tidak dapat dijangkau atau tidak ditemukan.
-    * 500: Biasanya pada sisi ini kesalahan pada server itu sendiri ntah karena server down karena kebanyakan permintaan atau lain sebagainya.
-* **Content**: biasanya berisikan data yang diminta berupa  HTML, gambar, atau data.
+    * 500: Biasanya pada sisi ini kesalahan pada server itu sendiri ntah karena server down karena kebanyakan permintaan, dll.
+* **Content**: biasanya berisikan data yang diminta berupa  HTML, gambar, atau data seperti contohnya JSON. 
