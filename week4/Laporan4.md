@@ -30,6 +30,6 @@ DNS. Dengan ini, pertukaran informasi akan terjadi secara langsung antara host y
          <img src="../assets/week4/5.png" width="400" height="300">
 
     * 2. implementasi untuk mengetahui server DNS otoritatif untuk universitas di Eropa. salah satu contoh yang bisa di buat adalah oxford. untuk mencarinya disini menggunakan -type=ns untuk melihat server mana yang memegang otoritas.
-        <img src="../assets/week4/6.png" width="400" height="300">
+         <img src="../assets/week4/6.png" width="400" height="300">
 
 
