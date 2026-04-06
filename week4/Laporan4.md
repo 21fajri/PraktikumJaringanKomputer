@@ -81,4 +81,7 @@ DNS. Dengan ini, pertukaran informasi akan terjadi secara langsung antara host y
     * 2. Untuk port tujuan yang diberikan adalah 61566 dengan sumber port yang diberikan yaitu 53.
 
          <img src="../assets/week4/17.png" width="400" height="300">
-    * 3. 
+    * 3. Jadi setelah melakukan penerapan implementasinya berikut seperti dibawah ini yang bisa dimuat contoh ip lokal yang didapat adalah 10.218.5.217 dimana gatewaynya adalah 10.218.0.253. dan dns milik server tersebut adalah 23.217.163.122. dimana ini merupakan dns yang bisa didapat melalui perantara ISP sedangkan 10.217.7.77 milik lokal.
+
+          <img src="../assets/week4/18.png" width="400" height="300">
+    * 4. 
