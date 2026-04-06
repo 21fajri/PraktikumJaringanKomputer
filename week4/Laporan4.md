@@ -90,4 +90,7 @@ DNS. Dengan ini, pertukaran informasi akan terjadi secara langsung antara host y
     * 5. Setelah melakukan implementasi dengan menggunakan beberapa filter terdapat jawaban yang terkandung yaitu name, type, class, ttl, data length, svcpriority, dan terakhir adalah targetname.
 
           <img src="../assets/week4/20.png" width="400" height="300">
-    * 6. 
+    * 6. Iya telah sesuai karena sebelumnya pada saat melakukan pengecekan melalui nslookup alamat 104.16.44.99 adalah salah satu dari Addresses yang diberikan oleh server DNS.
+
+         <img src="../assets/week4/21.png" width="400" height="300">
+    * 7.  Tidak karena komputer melakukan lookup pertama kali untuk www.ietf.org, maka hasilnya akan disimpan di dalam DNS Cache lokal. Karena IP-nya diketahui komputer tidak perlu bertanya lagi ke server DNS.
