@@ -25,10 +25,11 @@ DNS. Dengan ini, pertukaran informasi akan terjadi secara langsung antara host y
     * 1. Jalankan nslookup untuk mendapatkan alamat IP dari server web di Asia. Berapa alamat IP server tersebut?
     * 2. Jalankan nslookup agar dapat mengetahui server DNS otoritatif untuk universitas di Eropa.
     * 3. Jalankan nslookup untuk mencari tahu informasi mengenai server email dari Yahoo! Mail melalui salah satu server yang didapatkan di pertanyaan nomor 2. Apa alamat IP-nya?
-* **Implementasi/Jawavan**  
+* **Implementasi/Jawaban**  
     * 1. Jadi IP yang bisa di dapat adalah 114.4.166.189 dimana ini merupakan lokasi fisik server Alibaba. sementara 192.168.0.1 merupakan alamat IP dari router lokal yang bertindak sebagai DNS resolver.
          <img src="../assets/week4/5.png" width="400" height="300">
 
-
+    * 2. implementasi untuk mengetahui server DNS otoritatif untuk universitas di Eropa. salah satu contoh yang bisa di buat adalah oxford. untuk mencarinya disini menggunakan -type=ns untuk melihat server mana yang memegang otoritas.
+        <img src="../assets/week4/6.png" width="400" height="300">
 
 
