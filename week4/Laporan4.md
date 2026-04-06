@@ -39,3 +39,9 @@ DNS. Dengan ini, pertukaran informasi akan terjadi secara langsung antara host y
 
              <img src="../assets/week4/8.png" width="400" height="300">
 ### B. IPConfig       
+<div align="justify">Masuk pada sub-bab IPConfig, IPConfig sendiri merupakan perintah dasar untuk menampilkan semua rincian konfigurasi jaringan yang sedang aktif pada komputer. biasanya kegunaannya untuk melihat IPv4 ataupun IPv6, mengecek gateway, ataupun identifikasi koneksi. berikut contoh implementasi yang bisa dibuat dengan menggunakan syntax ipconfig /all untuk melihat semua jaringan yang terhubung pada perangkat.</div>
+    <img src="../assets/week4/9.png" width="400" height="300">
+
+<div align="justify">Selain itu IPConfig berguna untuk mengelola informasi DNS yang tersimpan dalam host dan mengirimnya berupa document. berikut tahapan awal yang bisa diimplementasikan. membuat syntax ipconfig /displaydns seperti pada gambar dibawah ini.</div>
+    <img src="../assets/week4/10.png" width="400" height="300">
+
