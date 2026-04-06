@@ -48,5 +48,17 @@ DNS. Dengan ini, pertukaran informasi akan terjadi secara langsung antara host y
 <div align="justify">Selanjutnya Hasil yang didapatkan akan menampilkan record dan sisa Time To Live dalam satuan detik. Untuk menghapus cacatan. berikut dibawah ini implementasi yang bisa dibuat dengan menggunakan syntax ipconfig /flushdns.</div>
     <img src="../assets/week4/11.png" width="400" height="300">
 
-<div align="justify"> Seperti implementasi diatas maka akan Mengosongkan catatan DNS yang berarti menghapus semua record dan memuat ulang record dari file
-host.</div>
+<div align="justify"> Seperti implementasi diatas maka akan Mengosongkan catatan DNS yang berarti menghapus semua record dan memuat ulang record dari file host.</div>
+
+### C. Tracing DNS dengan Wireshark
+<div align="justify"> Karena beberapa implementasi seperti diatas telah berhasil dilakukan seperti nslookup ataupun ipconfig selanjutnya masuk pada software wireshark dimana praktikum ini akan melakukan penyelesaian masalah yang lebih serius. sesuai arahan dengan modul langkah pertama akan menggunakan IPConfig untuk mengosongkan catatan DNS di host </div>
+    <img src="../assets/week4/12.png" width="400" height="300">  
+
+<div align="justify"> Selanjutnya membuka browser dan mengosongkan cachenya. contoh beberapa aktivias pada browser agar tidak preload sehingga mempercepat proses loading pada web tersebut. selain itu juga agar menjalankan proses baru pada wireshark agar mudah ter-track.</div>
+    <img src="../assets/week4/13.png" width="400" height="300">  
+
+<div align="justify"> Berikutnya membuka software wireshark dan memasukkan filter pada search filter yaitu sesuai arahan modul "ip.addr == 10.218.5.217". filter yang digunakan ini akan menghapus semua paket yang tidak berasal atau ditujukan ke host. kegiatan ini sekaligus akan melakukan pengambilan paket di Wireshark.</div>
+    <img src="../assets/week4/14.png" width="400" height="300"> 
+
+<div align="justify">Selanjutnya mengunjungi alamat sesuai arahan modul yaitu www.ietf.org dan selanjutnya menghentikan pengambilan paket pada wireshark.</div>
+    <img src="../assets/week4/15.png" width="400" height="300"> 
