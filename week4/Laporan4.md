@@ -15,8 +15,8 @@ DNS. Dengan ini, pertukaran informasi akan terjadi secara langsung antara host y
     <img src="../assets/week4/3.png" width="400" height="300">
 
 <div align="justify">Hal yang terjadi seperti diatas harusnya terdapat beberapa yang menjadi problem misalnya adalah server bisa jadi tidak merespon ataupun konfigurasi firewall oleh sebuah instansi. jadi pada study kasus diatas tersebut kita ingin permintaan dikirim ke server DNS bitsy.mit.edu, bukan ke default server DNS. Oleh karena itu pertukaran informasi akan terjadi secara langsung antara host yang mengajukan permintaan dan bitsy.mit.edu.</div>
-
     <img src="../assets/week4/4.png" width="400" height="300">
+    
 <div align="justify"> Selanjutnya mencoba syntax yaitu nslookup –option1 –option2 host-to-find dns-server. dimana ini merupakan cara untun mendiagnosa ataupun mengambil informasi dari DNS. jadi strukturnyanya itu nslookup itu nama program/perintahnya sendiri, lalu –option1 –option2 merupakan argumen tambahan untuk memodifikasi hasil pencarian, selanjutnya host-to-find dimana ini merupakan domain atau alamat yang ingin dicari informasinya contohnya www.mit.edu. dan terakhir dns-server, ini bagian yang bisa bertanya ke server DNS secara spesifik.</div>
 
 
