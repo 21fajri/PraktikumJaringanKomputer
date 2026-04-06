@@ -37,5 +37,5 @@ DNS. Dengan ini, pertukaran informasi akan terjadi secara langsung antara host y
          <img src="../assets/week4/7.png" width="400" height="300">
         * Contoh dibawah ini milik google.
 
-         <img src="../assets/week4/8.png" width="400" height="300">
+             <img src="../assets/week4/8.png" width="400" height="300">
 ### B. IPConfig       
