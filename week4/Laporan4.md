@@ -29,7 +29,10 @@ DNS. Dengan ini, pertukaran informasi akan terjadi secara langsung antara host y
     * 1. Jadi IP yang bisa di dapat adalah 114.4.166.189 dimana ini merupakan lokasi fisik server Alibaba. sementara 192.168.0.1 merupakan alamat IP dari router lokal yang bertindak sebagai DNS resolver.
          <img src="../assets/week4/5.png" width="400" height="300">
 
-    * 2. implementasi untuk mengetahui server DNS otoritatif untuk universitas di Eropa. salah satu contoh yang bisa di buat adalah oxford. untuk mencarinya disini menggunakan -type=ns untuk melihat server mana yang memegang otoritas.
+    * 2. implementasi untuk mengetahui server DNS otoritatif untuk universitas di Eropa. salah satu contoh yang bisa di buat adalah oxford. untuk mencarinya disini menggunakan -type=ns untuk melihat server mana yang memegang otoritas. selain itu didapat salah satu contohnya adalah "ox.ac.uk nameserver = dns0.ox.ac.uk"
          <img src="../assets/week4/6.png" width="400" height="300">
 
+    * 3. Karena oxford dikonfigurasi sebagai Authoritative DNS ia hanya mau menjawab pertanyaan tentang domain mereka sendiri. mereka menolak atau disebut refused karena mereka tidak mau melayani pencarian domain luar bagi pengguna publik. namun misal menggunakan domain google yaitu 8.8.8.8 ia akan memproses seperti dibawah ini. maka kita telah mendapatkan informasi mengenai server email dari Yahoo.
+         <img src="../assets/week4/8.png" width="400" height="300">
 
+         
