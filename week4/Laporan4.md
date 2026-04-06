@@ -86,5 +86,5 @@ DNS. Dengan ini, pertukaran informasi akan terjadi secara langsung antara host y
           <img src="../assets/week4/18.png" width="400" height="300">
     * 4. Memeriksan DNS dari jenis ataupun type apakah muncul sebuah jawaban. setelah melakukan peneran pada wireshark tidak ditemukannya jawaban atau tampilannya 0 seperti gambar dibawah ini.
 
-         <img src="../assets/week4/18.png" width="400" height="300">
+         <img src="../assets/week4/19.png" width="400" height="300">
      * 5. 
