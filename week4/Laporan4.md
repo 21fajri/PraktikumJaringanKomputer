@@ -45,3 +45,8 @@ DNS. Dengan ini, pertukaran informasi akan terjadi secara langsung antara host y
 <div align="justify">Selain itu IPConfig berguna untuk mengelola informasi DNS yang tersimpan dalam host dan mengirimnya berupa document. berikut tahapan awal yang bisa diimplementasikan. membuat syntax ipconfig /displaydns seperti pada gambar dibawah ini.</div>
     <img src="../assets/week4/10.png" width="400" height="300">
 
+<div align="justify">Selanjutnya Hasil yang didapatkan akan menampilkan record dan sisa Time To Live dalam satuan detik. Untuk menghapus cacatan. berikut dibawah ini implementasi yang bisa dibuat dengan menggunakan syntax ipconfig /flushdns.</div>
+    <img src="../assets/week4/11.png" width="400" height="300">
+
+<div align="justify"> Seperti implementasi diatas maka akan Mengosongkan catatan DNS yang berarti menghapus semua record dan memuat ulang record dari file
+host.</div>
