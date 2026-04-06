@@ -16,11 +16,18 @@ DNS. Dengan ini, pertukaran informasi akan terjadi secara langsung antara host y
 
 <div align="justify">Hal yang terjadi seperti diatas harusnya terdapat beberapa yang menjadi problem misalnya adalah server bisa jadi tidak merespon ataupun konfigurasi firewall oleh sebuah instansi. jadi pada study kasus diatas tersebut kita ingin permintaan dikirim ke server DNS bitsy.mit.edu, bukan ke default server DNS. Oleh karena itu pertukaran informasi akan terjadi secara langsung antara host yang mengajukan permintaan dan bitsy.mit.edu.</div>
     <img src="../assets/week4/4.png" width="400" height="300">
-    
+
 <div align="justify"> Selanjutnya mencoba syntax yaitu nslookup –option1 –option2 host-to-find dns-server. dimana ini merupakan cara untun mendiagnosa ataupun mengambil informasi dari DNS. jadi strukturnyanya itu nslookup itu nama program/perintahnya sendiri, lalu –option1 –option2 merupakan argumen tambahan untuk memodifikasi hasil pencarian, selanjutnya host-to-find dimana ini merupakan domain atau alamat yang ingin dicari informasinya contohnya www.mit.edu. dan terakhir dns-server, ini bagian yang bisa bertanya ke server DNS secara spesifik.</div>
 
+<div align="justify"> Selanjutnya masuk pada tahap pengujian mandiri. terdapat beberapa pertanyaan pada modul yang bisa di implementasikan yaitu.</div>
 
-
+* **Pertanyaan**
+    * 1. Jalankan nslookup untuk mendapatkan alamat IP dari server web di Asia. Berapa alamat IP server tersebut?
+    * 2. Jalankan nslookup agar dapat mengetahui server DNS otoritatif untuk universitas di Eropa.
+    * 3. Jalankan nslookup untuk mencari tahu informasi mengenai server email dari Yahoo! Mail melalui salah satu server yang didapatkan di pertanyaan nomor 2. Apa alamat IP-nya?
+* **Implementasi/Jawavan**  
+    * 1. Jadi IP yang bisa di dapat adalah 114.4.166.189 dimana ini merupakan lokasi fisik server Alibaba. sementara 192.168.0.1 merupakan alamat IP dari router lokal yang bertindak sebagai DNS resolver.
+         <img src="../assets/week4/5.png" width="400" height="300">
 
 
 
