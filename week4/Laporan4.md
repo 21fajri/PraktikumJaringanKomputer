@@ -87,4 +87,7 @@ DNS. Dengan ini, pertukaran informasi akan terjadi secara langsung antara host y
     * 4. Memeriksan DNS dari jenis ataupun type apakah muncul sebuah jawaban. setelah melakukan peneran pada wireshark tidak ditemukannya jawaban atau tampilannya 0 seperti gambar dibawah ini.
 
          <img src="../assets/week4/19.png" width="400" height="300">
-     * 5. 
+    * 5. Setelah melakukan implementasi dengan menggunakan beberapa filter terdapat jawaban yang terkandung yaitu name, type, class, ttl, data length, svcpriority, dan terakhir adalah targetname.
+
+          <img src="../assets/week4/20.png" width="400" height="300">
+    * 6. 
