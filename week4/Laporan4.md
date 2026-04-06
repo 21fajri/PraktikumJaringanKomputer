@@ -35,7 +35,7 @@ DNS. Dengan ini, pertukaran informasi akan terjadi secara langsung antara host y
     * 3. Karena oxford dikonfigurasi sebagai Authoritative DNS ia hanya mau menjawab pertanyaan tentang domain mereka sendiri. mereka menolak atau disebut refused karena mereka tidak mau melayani pencarian domain luar bagi pengguna publik. namun misal menggunakan domain google yaitu 8.8.8.8 ia akan memproses seperti dibawah ini. maka kita telah mendapatkan informasi mengenai server email dari Yahoo.
 
          <img src="../assets/week4/7.png" width="400" height="300">
-    
     * Contoh dibawah ini milik google.
+
          <img src="../assets/week4/8.png" width="400" height="300">
-         
+### B. IPConfig       
