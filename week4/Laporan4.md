@@ -14,7 +14,7 @@
 DNS. Dengan ini, pertukaran informasi akan terjadi secara langsung antara host yang mengajukan permintaan dan bitsy.mit.edu. Dalam contoh ini, server DNS bitsy.mit.edu memberikan alamat IP dari host www.aiit.or.kr yang merupakan server web di Advanced Institute of Information Technology. Berikut contoh yang bisa dimuat.</div>
     <img src="../assets/week4/3.png" width="400" height="300">
 
-<div align="justify">Hal yang terjadi seperti diatas harusnya terdapat beberapa yang menjadi problem misalnya adalah server bisa jadi tidak merespon </div>
+<div align="justify">Hal yang terjadi seperti diatas harusnya terdapat beberapa yang menjadi problem misalnya adalah server bisa jadi tidak merespon ataupun konfigurasi firewall oleh sebuah instansi.</div>
 
 
 
