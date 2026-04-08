@@ -108,4 +108,15 @@ DNS. Dengan ini, pertukaran informasi akan terjadi secara langsung antara host y
     * 1. Iya, keduanya yaitu dari port tujuan dan juga port sumber pada pesan balasan yaitu 53
 
          <img src="../assets/week4/25.png" width="400" height="300">
-    * 2. 
+    * 2. Alamat IP untuk yang dituju dari permintaan adalah 128.238.29.22 disini alamat IP tidak sama dengan server dns lokal karena harus lewat berbagai dns termasuk ISP sendiri.
+
+         <img src="../assets/week4/26.png" width="400" height="300">
+
+    * 3. Pesan yang dikirim tersebut hanya menjawab 0 
+
+         <img src="../assets/week4/27.png" width="400" height="300">
+
+    * 4. Terdapat beberapa jawaban yang dikirim sesuai dengan gambar seperti name, type dan lain sebagainya.
+
+         <img src="../assets/week4/28.png" width="400" height="300">
+
