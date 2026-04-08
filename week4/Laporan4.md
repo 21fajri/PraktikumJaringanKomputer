@@ -96,12 +96,11 @@ DNS. Dengan ini, pertukaran informasi akan terjadi secara langsung antara host y
     * 7.  Tidak karena komputer melakukan lookup pertama kali untuk www.ietf.org, maka hasilnya akan disimpan di dalam DNS Cache lokal. Karena IP-nya diketahui komputer tidak perlu bertanya lagi ke server DNS.
          
          <img src="../assets/week4/22.png" width="400" height="300">
-         
-<div align="justify">Selanjutnya adalah menjawab beberapa pertanyaan kembali sesuai dengan arahan modul yaitu mengabaikan  dua pasangan permintaan-balasan pertama karena mereka merupakan paket yang khusus dihasilkan oleh nslookup. kita  cukup fokus pada pesan permintaan dan balasan terakhir. berikut beberapa pertanyaan yang bisa dijawab yaitu.</div>
-    <img src="../assets/week4/23.png" width="400" height="300">
-    <img src="../assets/week4/24.png" width="400" height="300">
 
+<div align="justify">Selanjutnya adalah menjawab beberapa pertanyaan kembali sesuai dengan arahan modul yaitu mengabaikan  dua pasangan permintaan-balasan pertama karena mereka merupakan paket yang khusus dihasilkan oleh nslookup. kita  cukup fokus pada pesan permintaan dan balasan terakhir. berikut beberapa pertanyaan yang bisa dijawab yaitu.</div>
 <div align="justify">1. Apa port tujuan pada pesan permintaan DNS? Apa port sumber pada pesan balasan DNS?</div>
+     <img src="../assets/week4/23.png" width="400" height="300">
+     <img src="../assets/week4/24.png" width="400" height="300">
 <div align="justify">2. Ke alamat IP manakah pesan permintaan DNS dikirimkan? Apakah alamat IP tersebut merupakan default alamat IP server DNS lokal Anda?</div>
 <div align="justify">3. Periksa pesan permintaan DNS. Apa ”jenis” atau ”type” dari pesan tersebut? Apakah pesan tersebut mengandung ”jawaban” atau ”answers”?</div>
 <div align="justify">4. Periksa pesan balasan DNS. Berapa banyak ”jawaban” atau “answers” yang terdapat di dalamnya. Apa saja isi yang terkandung dalam setiap jawaban tersebut?</div>
