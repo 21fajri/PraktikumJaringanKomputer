@@ -120,3 +120,9 @@ DNS. Dengan ini, pertukaran informasi akan terjadi secara langsung antara host y
 
          <img src="../assets/week4/28.png" width="400" height="300">
 
+<div align="justify"> Selanjutnya mencoba menjawab pertanyaan kembali sesuai modul yaitu yang pertama adalah Ke alamat IP manakah pesan permintaan DNS dikirimkan? Apakah alamat IP tersebut merupakan default alamat IP server DNS lokal Anda? Alamat IP permintaan DNS dikirimkan di IP 192.168.137.1 yang merupakan alamat IP server DNS lokal</div>
+
+<div align="justify"> Selanjutnya pertanyaan Periksa pesan permintaan DNS. Apa ”jenis” atau ”type” dari pesan tersebut? Apakah pesan tersebut mengandung ”jawaban” atau ”answers”? Tidak. Pesan permintaan hanya berisi pertanyaan. Bagian "Answers" atau "Answer RRs" pada paket permintaan selalu bernilai 0. Jawaban muncul pada paket balasan</div>
+
+<div align="justify"> Kemudian pertanyaan terakhir yaitu Periksa pesan balasan DNS. Apa nama server MIT yang diberikan oleh pesan balasan? Apakah pesan balasan ini juga memberikan alamat IP untuk server MIT tersebut? terdapat beberapa nama server yang diberikan seperti dibawah ini.</div>
+    <img src="../assets/week4/29.png" width="400" height="300">
