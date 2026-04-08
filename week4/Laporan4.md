@@ -100,9 +100,12 @@ DNS. Dengan ini, pertukaran informasi akan terjadi secara langsung antara host y
 
 * **Pertanyaan**
     * 1. Apa port tujuan pada pesan permintaan DNS? Apa port sumber pada pesan balasan DNS?
-           
-         <img src="../assets/week4/23.png" width="400" height="300">
-         <img src="../assets/week4/24.png" width="400" height="300">
-<div align="justify">2. Ke alamat IP manakah pesan permintaan DNS dikirimkan? Apakah alamat IP tersebut merupakan default alamat IP server DNS lokal Anda?</div>
-<div align="justify">3. Periksa pesan permintaan DNS. Apa ”jenis” atau ”type” dari pesan tersebut? Apakah pesan tersebut mengandung ”jawaban” atau ”answers”?</div>
-<div align="justify">4. Periksa pesan balasan DNS. Berapa banyak ”jawaban” atau “answers” yang terdapat di dalamnya. Apa saja isi yang terkandung dalam setiap jawaban tersebut?</div>
+    * 2. Ke alamat IP manakah pesan permintaan DNS dikirimkan? Apakah alamat IP tersebut merupakan default alamat IP server DNS lokal Anda?
+    * 3. Periksa pesan permintaan DNS. Apa ”jenis” atau ”type” dari pesan tersebut? Apakah pesan tersebut mengandung ”jawaban” atau ”answers”?
+    * 4. Periksa pesan balasan DNS. Berapa banyak ”jawaban” atau “answers” yang terdapat di dalamnya. Apa saja isi yang terkandung dalam setiap jawaban tersebut?
+
+* **Jawaban**
+    * 1. Iya, keduanya yaitu dari port tujuan dan juga port sumber pada pesan balasan yaitu 53
+
+         <img src="../assets/week4/25.png" width="400" height="300">
+    * 2. 
