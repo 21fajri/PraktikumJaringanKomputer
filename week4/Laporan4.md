@@ -94,3 +94,6 @@ DNS. Dengan ini, pertukaran informasi akan terjadi secara langsung antara host y
 
          <img src="../assets/week4/21.png" width="400" height="300">
     * 7.  Tidak karena komputer melakukan lookup pertama kali untuk www.ietf.org, maka hasilnya akan disimpan di dalam DNS Cache lokal. Karena IP-nya diketahui komputer tidak perlu bertanya lagi ke server DNS.
+         
+         <img src="../assets/week4/22.png" width="400" height="300">
+<div align="justify">Selanjutnya adalah menjawab beberapa pertanyaan kembali sesuai dengan arahan modul yaitu mengabaikan  dua pasangan permintaan-balasan pertama karena mereka merupakan paket yang khusus dihasilkan oleh nslookup.</div>
