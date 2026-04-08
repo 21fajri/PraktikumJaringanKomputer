@@ -126,3 +126,13 @@ DNS. Dengan ini, pertukaran informasi akan terjadi secara langsung antara host y
 <div align="justify"> - </div>
 <div align="justify"> Kemudian pertanyaan terakhir yaitu Periksa pesan balasan DNS. Apa nama server MIT yang diberikan oleh pesan balasan? Apakah pesan balasan ini juga memberikan alamat IP untuk server MIT tersebut? terdapat beberapa nama server yang diberikan seperti dibawah ini.</div>
     <img src="../assets/week4/29.png" width="400" height="300">
+<div align="justify"> - </div>
+<div align="justify"> Ke alamat IP manakah pesan permintaan DNS dikirimkan? Apakah alamat IP tersebut
+merupakan default alamat IP server DNS lokal Anda? Sama seperti sebelumnya yaitu 192.168.137.1 </div>
+<div align="justify"> - </div>
+<div align="justify">  Periksa pesan permintaan DNS. Apa ”jenis” atau ”type” dari pesan tersebut? Apakah pesan
+tersebut mengandung ”jawaban” atau ”answers”? tidak ada jawaban yang diberikan pada permintaan DNS </div>
+<div align="justify"> - </div>
+<div align="justify"> Periksa pesan balasan DNS. Berapa banyak ”jawaban” atau “answers” yang terdapat di
+dalamnya. Apa saja isi yang terkandung dalam setiap jawaban tersebut? Hasil tidak dapat ditemukan karena setelah melakukan pengecekan balasan DNS yang diberikan adalah RTO atau biasa disebut Request Time Out. </div>
+     <img src="../assets/week4/30.png" width="400" height="300">
