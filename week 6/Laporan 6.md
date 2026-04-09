@@ -31,5 +31,5 @@ cara memasukkan ”tcp” dan nama seperti contains dan menambahkan tanda petik 
     <img src="../assets/week 6/4.png" width="400" height="300">
 3. <div align="justify"> Berapa alamat IP dan nomor port TCP yang digunakan oleh komputer klien Anda (sumber) untuk mentransfer ke gaia.cs.umass.edu? Jadi alamat IPnya adalah 10.217.7.77 dan port yang digunakan adalah 57168.</div>
 
-    <img src="../assets/week 6/SOAL 3.png.png" width="400" height="300">
+    <img src="../assets/week 6/SOAL 3.png" width="400" height="300">
 ### D. Dasar TCP
