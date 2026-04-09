@@ -22,7 +22,9 @@
     * 3. Nilai pada field Length dalam header UDP panjang total paket UDP dalam satuan byte, yang terhitung headernya adalah 8 byte ditambah dengan Data Payload seperti penjelasan pada nomor 2. jadi terdapat juga rumus untuk menghitungnya yaitu length = panjang heade + panjang payload. dimana implementasi ini yang bisa dilihat adalah 58 = 8 + 50 hasilnya masuk akal yaitu berjumlah 58.
 
          <img src="../assets/week5/3.png" width="400" height="300">
-    * 4. Maka seperti pada pertanyaan pada nomor 2. field Length pada header UDP memiliki panjang 2 byte yang di total berjumlah 16 bit. dalam biner nilai maksimum yang dapat ditampung oleh 16 bit adalah $2^{16} - 1$.
-    * 5.
+    * 4. Maka seperti pada pertanyaan pada nomor 2. field Length pada header UDP memiliki panjang 2 byte yang di total berjumlah 16 bit. dalam biner nilai maksimum yang dapat ditampung oleh 16 bit adalah $2^{16} - 1$. jadi jika di total nilai maksimum untuk field Length adalah 65.535 byte. untuk Nilai 65.535 itu adalah total panjang header + payload. untuk tau jumlah maksimum payload dilakukan pengurangan nilai tersebut dengan ukuran header UDP yaitu 8 byte. yaitu maximum payload = 65.535 - 8 = 65.527 byte. jadi maximum byte di payload udp adalah 65.527 byte.
+
+    * 5. Jadi setelah mengidentifikasi field Source Port memiliki panjang 2 byte atau 16 bit. maka nomor port terbesar yang bisa digunakan sebagai port sumber adalah 65.535. sesuai dengan $$2^{16} - 1 = 65.535$$
+    
     * 6.
     * 7.
