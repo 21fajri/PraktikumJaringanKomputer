@@ -23,9 +23,13 @@ Wonderland) dan kemudian mentransfer file tersebut ke server Web dengan mengguna
 <div align="justify"> Selanjutnya melakukan filter terhadap paket yang ditampilkan pada jendela Wireshark dengan
 cara memasukkan ”tcp” dan nama seperti contains dan menambahkan tanda petik 2  ke dalam kolom filter yang terdapat di bagian atas. Kemudian hasil yang seharusnya ditampilkan adalah serangkaian pesan TCP dan HTTP antara komputer. Disini akan terlihat juga inisiasi ”tree-way handshake” yang berisi pesan SYN. berikut dibawah ini contoh pertanyaan - pertanyaan yang bisa di implementasikan sesuai praktikum yang diberikan yaitu.</div>
 
-1. <div align="justify"> Berapa alamat IP dan nomor port TCP yang digunakan oleh komputer klien untuk mentransfer file ke gaia.cs.umass.edu? Cara paling mudah menjawab pertanyaan ini adalah dengan memilih sebuah pesan HTTP dan meneliti detail paket TCP yang digunakan untuk membawa pesan HTTP tersebut. Jadi IP dan nomor port sumber adalah </div>
+1. <div align="justify"> Berapa alamat IP dan nomor port TCP yang digunakan oleh komputer klien untuk mentransfer file ke gaia.cs.umass.edu? Cara paling mudah menjawab pertanyaan ini adalah dengan memilih sebuah pesan HTTP dan meneliti detail paket TCP yang digunakan untuk membawa pesan HTTP tersebut. Jadi IP dan nomor port sumber adalah 10.218.14.174 dan port 57168</div>
 
-    <img src="../assest/week 6/4.png" width="400" height="300">
-2. <div align="justify"></div>
+    <img src="../assets/week 6/4.png" width="400" height="300">
+2. <div align="justify">Apa alamat IP dari gaia.cs.umass.edu? Pada nomor port berapa ia mengirim dan menerima segmen TCP untuk koneksi ini? Jadi seperi pada gambar dibawh destinasi tujuan port IP yaitu 128.119.245.12 dan portnya adalah 80 standarisasi keamanan browser untuk HTTP.</div>
 
-3. <div align="justify"></div>
+    <img src="../assets/week 6/4.png" width="400" height="300">
+3. <div align="justify"> Berapa alamat IP dan nomor port TCP yang digunakan oleh komputer klien Anda (sumber) untuk mentransfer ke gaia.cs.umass.edu? Jadi alamat IPnya adalah 10.217.7.77 dan port yang digunakan adalah 57168.</div>
+
+    <img src="../assets/week 6/SOAL 3.png.png" width="400" height="300">
+### D. Dasar TCP
