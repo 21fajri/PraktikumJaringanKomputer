@@ -25,6 +25,10 @@
     * 4. Maka seperti pada pertanyaan pada nomor 2. field Length pada header UDP memiliki panjang 2 byte yang di total berjumlah 16 bit. dalam biner nilai maksimum yang dapat ditampung oleh 16 bit adalah $2^{16} - 1$. jadi jika di total nilai maksimum untuk field Length adalah 65.535 byte. untuk Nilai 65.535 itu adalah total panjang header + payload. untuk tau jumlah maksimum payload dilakukan pengurangan nilai tersebut dengan ukuran header UDP yaitu 8 byte. yaitu maximum payload = 65.535 - 8 = 65.527 byte. jadi maximum byte di payload udp adalah 65.527 byte.
 
     * 5. Jadi setelah mengidentifikasi field Source Port memiliki panjang 2 byte atau 16 bit. maka nomor port terbesar yang bisa digunakan sebagai port sumber adalah 65.535. sesuai dengan $$2^{16} - 1 = 65.535$$
-    
-    * 6.
-    * 7.
+
+    * 6. Terlihat nilai pada baris dalam sistem heksadesimal, 11 sama dengan 1 * 16 + 1 = 17 dalam desimal. maka Jika nilainya 17 (0x11), maka isinya adalah UDP. Karena paket yang di analisis saat ini adalah SNMP maka nomor protokolnya adalah 17.
+
+          <img src="../assets/week5/8.png" width="400" height="300">
+    * 7. Jadi paket pertama host bertindak sebagai klien. Ia memilih sebuah nomor port acak sebagai Source Port dan mengirimkannya ke destination Port standar layanan tujuan yaitu port 161. kemudian pada paket kedua server membalas. agar balasan itu sampai ke aplikasi yang tepat di komputer, server harus mengirim balik menggunakan port asal klien tadi sebagai Destination Port-nya. maka Hubungan nomor port pada kedua paket tersebut adalah berkebalikan. Source Port pada paket pertama menjadi Destination Port pada paket kedua, dan Destination Port pada paket pertama menjadi Source Port pada paket kedua
+
+         <img src="../assets/week5/9.png" width="400" height="300">
