@@ -64,3 +64,6 @@ cara memasukkan ”tcp” dan nama seperti contains dan menambahkan tanda petik 
 
     <img src="../assets/week 6/SOAL 9.png" width="400" height="300">
 ### E. Congestion Control pada TCP
+<div align="justify"> Disini akan melakukan implementasi pemeriksaan jumlah data yang dikirim per satuan waktu dari klien ke server. Kita akan menggunakan salah satu fitur grafik TCP Wireshark ‒Time-Sequence-Graph(Stevens)‒ untuk
+memplot data. seperti gambar dibawah ini memilih segmen TCP yang dikirim klien di jendela "daftar paket yang diambil" Wireshark. Kemudian memilih menu Statistics->TCP Stream Graph-> Time-Sequence-Graph (Stevens). disini maka setiap titik mewakili segmen TCP yang dikirim, memplot nomor urut segmen dibandingkan dengan waktu pengirimannya. berikut implementasi yang bisa dimuat adalah.</div>
+    <img src="../assets/week 6/SOAL 3 - 1.png" width="400" height="300">
