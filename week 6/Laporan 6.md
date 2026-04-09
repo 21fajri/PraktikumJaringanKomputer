@@ -45,6 +45,8 @@ cara memasukkan ”tcp” dan nama seperti contains dan menambahkan tanda petik 
 4. <div align="justify"> Anggap segmen TCP yang berisi HTTP POST sebagai segmen pertama dalam koneksi TCP. Berapa nomor urut dari enam segmen pertama dalam TCP (termasuk segmen yang berisi HTTP POST)? Pada jam berapa setiap segmen dikirim? Kapan ACK untuk setiap segmen diterima? Dengan adanya perbedaan antara kapan setiap segmen TCP dikirim dan kapan acknowledgement-nya diterima, berapakah nilai RTT untuk keenam segmen tersebut? Berapa nilai EstimatedRTT setelah penerimaan setiap ACK? (Catatan: Wireshark memiliki fitur yang memungkinkan Anda untuk memplot RTT untuk setiap segmen TCP yang dikirim. Pilih segmen TCP yang dikirim dari klien ke server gaia.cs.umass.edu pada jendela "daftar paket yang ditangkap". Kemudian pilih: Statistics->TCP Stream Graph- >Round Trip Time Graph). jadi nomor urut 6 segmen pertama sekisar 7865 dimana ia dihitung sesuai urutan seperti gambar dibawah ini. dan terdapat beberapa data tambahan yaitu nilai RTT dihitung dari Waktu ACK diterima - Waktu segmen terkirim sekitar 300 MS yang dimana hasilnya adalah Nilai estimasi</div>
 
     <img src="../assets/week 6/SOAL 4.png" width="400" height="300">
+4. <div align="justify">Round Trip Time Graph</div>
+
     <img src="../assets/week 6/SOAL 2 - 3 - 1.png" width="400" height="300">
 5. <div align="justify"> Berapa panjang setiap enam segmen TCP pertama? Jadi panjang TCP yang pertama adalah 7865 ini dihitung melalui data yang ada yaitu 1460 dan hanya 565 </div>
 
