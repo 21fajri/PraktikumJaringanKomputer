@@ -50,6 +50,7 @@ cara memasukkan ”tcp” dan nama seperti contains dan menambahkan tanda petik 
     <img src="../assets/week 6/SOAL 2 - 3 - 1.png" width="400" height="300">
 5. <div align="justify"> Berapa panjang setiap enam segmen TCP pertama? Jadi panjang TCP yang pertama adalah 7865 ini dihitung melalui data yang ada yaitu 1460 dan hanya 565 </div>
 
+    <img src="../assets/week 6/SOAL 4.png" width="400" height="300">
 6. <div align="justify"> Berapa jumlah minimum ruang buffer tersedia yang disarankan kepada penerima dan diterima untuk seluruh trace? Apakah kurangnya ruang buffer penerima pernah menghambat pengiriman?</div>
 
 7. <div align="justify"> Apakah ada segmen yang ditransmisikan ulang dalam file trace? Apa yang anda periksa (di dalam file trace) untuk menjawab pertanyaan ini?</div>
