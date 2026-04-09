@@ -10,11 +10,13 @@ Wonderland) dan kemudian mentransfer file tersebut ke server Web dengan mengguna
 1. <div align="justify"> Membuka browser web yaitu http://gaia.cs.umass.edu/wireshark-labs/alice.txt dan mengunduh salinan ASCII dari naskah Alice in Wonderland. dan menyimpan file itu dikomputer.</div>
 
     <img src="../assets/week 6/1.png" width="400" height="300">
-2. <div align="justify"> Selanjutnya menyimpan file seperti pada gambar diatas dan kembali pada website http://gaia.cs.umass.edu/wireshark-labs/TCP-wireshark-file1.html dan melakukan proses upload data pada web tersebut untuk melakukan tracking pergerakan data melalui wireshark nantinya. setelah selesai berikut seperti dibawah ini tampilan webnya yang menandakan proses upload telah berhasil dilakukan.</div>
+2. <div align="justify"> Selanjutnya menyimpan file seperti pada gambar diatas dan kembali pada website http://gaia.cs.umass.edu/wireshark-labs/TCP-wireshark-file1.html dan melakukan proses upload data pada web tersebut untuk melakukan tracking pergerakan data melalui wireshark nantinya.</div>
 
     <img src="../assets/week 6/2.png" width="400" height="300">
+3. <div align="justify"> Setelah selesai berikut seperti dibawah ini tampilan webnya yang menandakan proses upload telah berhasil dilakukan. dengan pesan Congratulation!</div>
+
     <img src="../assets/week 6/3.png" width="400" height="300">
-3. <div align="justify"> Kemudian menjalankan wireshark dan memulai penangkapan paket dan menghentikan penangkapan paket setelah beberapa detik berlangsung agar proses dapat terlihat lebih mudah. berikut seperti dibawah ini implementasi yang bisa dilakukan.</div>
+4. <div align="justify"> Kemudian menjalankan wireshark dan memulai penangkapan paket dan menghentikan penangkapan paket setelah beberapa detik berlangsung agar proses dapat terlihat lebih mudah. berikut seperti dibawah ini implementasi yang bisa dilakukan.</div>
 
     <img src="../assets/week 6/4.png" width="400" height="300">
 ### C. Menampilkan Awal pada Captured Trace
