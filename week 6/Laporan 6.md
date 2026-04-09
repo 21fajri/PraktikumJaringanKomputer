@@ -13,6 +13,7 @@ Wonderland) dan kemudian mentransfer file tersebut ke server Web dengan mengguna
 2. <div align="justify"> Selanjutnya menyimpan file seperti pada gambar diatas dan kembali pada website http://gaia.cs.umass.edu/wireshark-labs/TCP-wireshark-file1.html dan melakukan proses upload data pada web tersebut untuk melakukan tracking pergerakan data melalui wireshark nantinya. setelah selesai berikut seperti dibawah ini tampilan webnya yang menandakan proses upload telah berhasil dilakukan.</div>
 
     <img src="../assets/week 6/2.png" width="400" height="300">
+    <img src="../assets/week 6/3.png" width="400" height="300">
 3. <div align="justify"> Kemudian menjalankan wireshark dan memulai penangkapan paket dan menghentikan penangkapan paket setelah beberapa detik berlangsung agar proses dapat terlihat lebih mudah. berikut seperti dibawah ini implementasi yang bisa dilakukan.</div>
 
     <img src="../assets/week 6/4.png" width="400" height="300">
