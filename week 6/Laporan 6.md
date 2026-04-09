@@ -51,12 +51,16 @@ cara memasukkan ”tcp” dan nama seperti contains dan menambahkan tanda petik 
 5. <div align="justify"> Berapa panjang setiap enam segmen TCP pertama? Jadi panjang TCP yang pertama adalah 7865 ini dihitung melalui data yang ada yaitu 1460 dan hanya 565 </div>
 
     <img src="../assets/week 6/SOAL 4.png" width="400" height="300">
-6. <div align="justify"> Berapa jumlah minimum ruang buffer tersedia yang disarankan kepada penerima dan diterima untuk seluruh trace? Apakah kurangnya ruang buffer penerima pernah menghambat pengiriman?</div>
+6. <div align="justify"> Berapa jumlah minimum ruang buffer tersedia yang disarankan kepada penerima dan diterima untuk seluruh trace? Apakah kurangnya ruang buffer penerima pernah menghambat pengiriman? Seperti pada gambar dibawah nilai diambil dari window sebesar 5840. Jawabannya tidak karena tidak akan mempengaruhi kecepatan pengiriman.</div>
 
-7. <div align="justify"> Apakah ada segmen yang ditransmisikan ulang dalam file trace? Apa yang anda periksa (di dalam file trace) untuk menjawab pertanyaan ini?</div>
+    <img src="../assets/week 6/SOAL 5.png" width="400" height="300">
+7. <div align="justify"> Apakah ada segmen yang ditransmisikan ulang dalam file trace? Apa yang anda periksa (di dalam file trace) untuk menjawab pertanyaan ini? Sesuai pada praktikum kemarin tidak ada segmen yang dikirimkan ulang</div>
 
-8. <div align="justify"> Berapa banyak data yang biasanya diakui oleh penerima dalam ACK? Dapatkah anda mengidentifikasi kasus-kasus di mana penerima melakukan ACK untuk setiap segmen yang diterima?</div>
+    <img src="../assets/week 6/SOAL 7.png" width="400" height="300">
+8. <div align="justify"> Berapa banyak data yang biasanya diakui oleh penerima dalam ACK? Dapatkah anda mengidentifikasi kasus-kasus di mana penerima melakukan ACK untuk setiap segmen yang diterima? Seperti pada gambar dibawah ini dimana misal jika nilai ack sebesar 7866 ke 9013 maka nilai yang di ACK adalah 1147 byte. disini menggunakan selisih nomor pada ACK.</div>
 
-9. <div align="justify"> Berapa throughput (byte yang ditransfer per satuan waktu) untuk sambungan TCP? Jelaskan bagaimana Anda menghitung nilai ini.</div>
+    <img src="../assets/week 6/SOAL 8.png" width="400" height="300">
+9. <div align="justify"> Berapa throughput (byte yang ditransfer per satuan waktu) untuk sambungan TCP? Jelaskan bagaimana Anda menghitung nilai ini. Seperti pada gmabar dibawah ini bahwasannya average Throughput berkisaran 170-270 kbps sesuai pada diagram yang dihasilkan.</div>
 
+    <img src="../assets/week 6/SOAL 9.png" width="400" height="300">
 ### E. Congestion Control pada TCP
