@@ -33,3 +33,27 @@ cara memasukkan ”tcp” dan nama seperti contains dan menambahkan tanda petik 
 
     <img src="../assets/week 6/SOAL 3.png" width="400" height="300">
 ### D. Dasar TCP
+1. <div align="justify"> Berapa nomor urut segmen TCP SYN yang digunakan untuk memulai sambungan TCP antara komputer klien dan gaia.cs.umass.edu? Apa yang dimiliki segmen tersebut sehingga teridentifikasi sebagai segmen SYN? Nomor urut SYN adalah 1 Segmen seperti pada gambar dibawah bahwa SYN = 1 dan  ACK = 0. ini merupakan 3-way handshake</div>
+
+    <img src="../assets/week 6/SOAL 2 - 1.png" width="400" height="300">
+2. <div align="justify"> Berapa nomor urut segmen SYNACK yang dikirim oleh gaia.cs.umass.edu ke komputer klien sebagai balasan dari SYN? Berapa nilai dari field Acknowledgement pada segmen SYNACK? Bagaimana gaia.cs.umass.edu menentukan nilai tersebut? Apa yang dimiliki oleh segmen sehingga teridentifikasi sebagai segmen SYNACK? Jadi nomor urut SYNACK yaitu 213, yang berarti 23 + 1 = 24 untuk nilai acknowledgement. disini Gaia menentukan nilai karena setiap flag SYN mengonsumsi 1 nomor urut</div>
+
+    <img src="../assets/week 6/SOAL 2 - 2.png" width="400" height="300">
+3. <div align="justify">  Berapa nomor urut segmen TCP yang berisi perintah HTTP POST? Perhatikan bahwa untuk menemukan perintah POST, Anda harus menelusuri content field milik paket di bagian bawah jendela Wireshark, kemudian cari segmen yang berisi "POST" di bagian field DATAnya. nomor urutnya adalah 199</div>
+
+    <img src="../assets/week 6/SOAL 2 - 3.png" width="400" height="300">
+4. <div align="justify"> Anggap segmen TCP yang berisi HTTP POST sebagai segmen pertama dalam koneksi TCP. Berapa nomor urut dari enam segmen pertama dalam TCP (termasuk segmen yang berisi HTTP POST)? Pada jam berapa setiap segmen dikirim? Kapan ACK untuk setiap segmen diterima? Dengan adanya perbedaan antara kapan setiap segmen TCP dikirim dan kapan acknowledgement-nya diterima, berapakah nilai RTT untuk keenam segmen tersebut? Berapa nilai EstimatedRTT setelah penerimaan setiap ACK? (Catatan: Wireshark memiliki fitur yang memungkinkan Anda untuk memplot RTT untuk setiap segmen TCP yang dikirim. Pilih segmen TCP yang dikirim dari klien ke server gaia.cs.umass.edu pada jendela "daftar paket yang ditangkap". Kemudian pilih: Statistics->TCP Stream Graph- >Round Trip Time Graph). jadi nomor urut 6 segmen pertama sekisar 7865 dimana ia dihitung sesuai urutan seperti gambar dibawah ini. dan terdapat beberapa data tambahan yaitu nilai RTT dihitung dari Waktu ACK diterima - Waktu segmen terkirim sekitar 300 MS yang dimana hasilnya adalah Nilai estimasi</div>
+
+    <img src="../assets/week 6/SOAL 4.png" width="400" height="300">
+    <img src="../assets/week 6/SOAL 2 - 3 - 1.png" width="400" height="300">
+5. <div align="justify"> Berapa panjang setiap enam segmen TCP pertama? Jadi panjang TCP yang pertama adalah 7865 ini dihitung melalui data yang ada yaitu 1460 dan hanya 565 </div>
+
+6. <div align="justify"> Berapa jumlah minimum ruang buffer tersedia yang disarankan kepada penerima dan diterima untuk seluruh trace? Apakah kurangnya ruang buffer penerima pernah menghambat pengiriman?</div>
+
+7. <div align="justify"> Apakah ada segmen yang ditransmisikan ulang dalam file trace? Apa yang anda periksa (di dalam file trace) untuk menjawab pertanyaan ini?</div>
+
+8. <div align="justify"> Berapa banyak data yang biasanya diakui oleh penerima dalam ACK? Dapatkah anda mengidentifikasi kasus-kasus di mana penerima melakukan ACK untuk setiap segmen yang diterima?</div>
+
+9. <div align="justify"> Berapa throughput (byte yang ditransfer per satuan waktu) untuk sambungan TCP? Jelaskan bagaimana Anda menghitung nilai ini.</div>
+
+### E. Congestion Control pada TCP
