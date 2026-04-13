@@ -9,6 +9,8 @@ di RFC atau di tempat lain. developer membuat program klien dan server, dan deve
 penerima akan mengambil paket melalui soket, dan kemudian memeriksa isi paket dan mengambil tindakan yang tepat. 
 </div>
 
-### B.B UDPClient.py
+### B.1 UDPClient.py
 <div align="justify">Berikut dibawah ini implementasi yang bisa dimuat untuk praktikum week 7 yaitu.</div>
     <img src="../assets/week7/2.png" width="400" height="300">
+
+<div align="justify">Jadi alur program diatas diawali dari mengimport</div>
