@@ -1,7 +1,7 @@
 # Laporan Jaringan Komputer Informatika Week 7
 
-## SOCKET PROGRAMMING : MEMBUAT APLIKASI JARINGAN
-<div align="justify"> Typical network application terdiri dari sepasang program program client dan program server yang berada di dua sistem akhir yang berbeda. Ketika kedua program ini dijalankan, proses client dan proses server dibuat, dan proses ini berkomunikasi satu sama lain dengan membaca dari, dan menulis ke, soket. Saat membuat aplikasi jaringan, tugas utama developer adalah menulis kode untuk program klien dan server. Ada dua jenis network applications yaitu implementasi yang operasinya ditentukan dalam standar protokol dan proprietary network application dimana program klien dan server menggunakan protokol an application-layer yang belum dipublikasikan secara terbuka
+## SOCKET PROGRAMMING MEMBUAT APLIKASI JARINGAN
+<div align="justify"> Typical network application itu terdiri dari sepasang program program client dan program server yang berada di dua sistem akhir yang berbeda. Ketika kedua program ini dijalankan, proses client dan proses server dibuat, dan proses ini berkomunikasi satu sama lain dengan membaca dari, dan menulis ke, soket. Saat membuat aplikasi jaringan, tugas utama developer adalah menulis kode untuk program klien dan server. Ada dua jenis network applications yaitu implementasi yang operasinya ditentukan dalam standar protokol dan proprietary network application dimana program klien dan server menggunakan protokol an application-layer yang belum dipublikasikan secara terbuka
 di RFC atau di tempat lain. developer membuat program klien dan server, dan developer memiliki kendali penuh atas apa yang ada dalam kode. Tetapi karena kode tersebut tidak mengimplementasikan open protocol, developer independen lainnya tidak akan dapat mengembangkan kode yang beroperasi dengan aplikasi tersebut.</div>
 
 ### B. Program Socket dengan UDP
