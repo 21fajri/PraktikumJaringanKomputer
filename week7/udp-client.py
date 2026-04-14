@@ -13,17 +13,13 @@ print("Ketik 'exit' untuk mematikan server dan keluar, atau 'keluar' untuk tutup
 
 try:
     while True:
-        # Input pesan dari pengguna
         message = input('Masukkan kalimat lowercase : ')
-        
-        # Validasi jika input kosong
+
         if not message:
             continue
 
-        # Mengirim pesan ke server
         clientSocket.sendto(message.encode(), (serverName, serverPort))
         
-        # Cek apakah pengguna ingin keluar
         if message.lower() == 'exit':
             print("Perintah exit dikirim. Mematikan server dan menutup klien...")
             break
@@ -32,7 +28,6 @@ try:
             break
         
         try:
-            # Menerima balasan dari server
             modifiedMessage, serverAddress = clientSocket.recvfrom(2048)
             print(f"Balasan dari Server: {modifiedMessage.decode()}\n")
         except timeout:
@@ -41,6 +36,5 @@ try:
 except Exception as e:
     print(f"Terjadi kesalahan : {e}")
 finally:
-    # Menutup koneksi socket secara permanen saat loop berhenti
     clientSocket.close()
     print("Koneksi ditutup.")
