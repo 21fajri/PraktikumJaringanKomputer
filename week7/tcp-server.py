@@ -1,19 +1,19 @@
 from socket import *
 
-serverPort = 12000
-serverSocket = socket(AF_INET, SOCK_STREAM)
+serverPort = 12000 
+serverSocket = socket(AF_INET, SOCK_STREAM) 
 
-serverSocket.bind(('', serverPort))
+serverSocket.bind(('', serverPort)) 
 
-serverSocket.listen(1)
+serverSocket.listen(1) 
 print("[SYSTEM] Server siap menerima koneksi")
 
-running = True
+running = True 
 
-while running:
-    connectionSocket, addr = serverSocket.accept()
+while running: 
+    connectionSocket, addr = serverSocket.accept() 
     while True:
-        message = connectionSocket.recv(2048).decode()
+        message = connectionSocket.recv(2048).decode() 
         if not message:
             break
 
