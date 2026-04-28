@@ -12,3 +12,6 @@
 
 <div align="justify"> lalu mengimplementasikan try-except di function handle_client untuk menghindari sebuah error pada program. berikut bagaimana program berjalan. pertama menyimpan receive buffer sebesar 1024 lalu meng-decodenya dan di simpan pada message. lalu mengambil nama file dari HTTP request yang dikirim client. kemudian membuka file html serta menghilangkan slash, dan code ini berjalan pada 'f = open(message[1:])' lalu membaca filenya dan mengirim respons jika server berhasil ditemukan lalu mengirimnya semua pada connectionsocket.sendall. lalu memutus koneksi jika sudah selesai. pada bagian except ini addalah error handling ketika file tidak ditemukan. alur responnya adalah ketika client mengirim request dan server mencoba untuk mencari filenya dan ketika ditemukan beberapa except akan muncul seperti 404 Not found.</div>
     <img src="../assets/week9/3.png" width="400" height="300">
+
+<div align="justify"> Berikut dibawah ini merupakan hasil output yang dapat ditampilkan.</div>
+    <img src="../assets/week9/1.png" width="400" height="300">
