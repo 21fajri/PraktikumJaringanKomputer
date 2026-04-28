@@ -54,6 +54,6 @@ while True :
     thread = threading.Thread(
         target = handle_client,
         args = (connectionSocket,)
-)
+    )
     # menjalankan
     thread.start()
