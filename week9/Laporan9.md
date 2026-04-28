@@ -14,4 +14,4 @@
     <img src="../assets/week9/3.png" width="400" height="300">
 
 <div align="justify"> Berikut dibawah ini merupakan hasil output yang dapat ditampilkan.</div>
-    <img src="../assets/week9/1.png" width="400" height="300">
+    <img src="../assets/week9/output1.png" width="400" height="300">
