@@ -15,3 +15,10 @@
 
 <div align="justify"> Berikut dibawah ini merupakan hasil output yang dapat ditampilkan.</div>
     <img src="../assets/week9/output1.png" width="400" height="300">
+
+### C. Latihan Tambahan
+<div align="justify"> Tugas berikutnya yang harus diselesaikan adalah melengkapai skeleton code python untuk WEB server. berikut dibawah ini gambar yang bisa ditampilan dan implementasi ini termasuk kedalam Single-threaded dan praktikum yang pertama sebelumnya termasuk Multi-threaded karena terdapat beberapa aspek yang membuatnya ia berbeda salah satu contohnya adalah sendall() dan for(loop).</div>
+    <img src="../assets/week9/4.png" width="400" height="300">
+
+<div align="justify"> Seperti pada gambar diatas alur program bekerja dari client request hingga menerima dan mengambil data jika file tidak ditemukan maka pesan error akan tampil dan memutus connection. pada contoh program yang dibuat pertama itu mengimpor semua fungsi dari modul socket untuk komunikasi jaringan kemudian tidak lupa juga mengimport modul sys untuk akses sistem. setelah selesai, membangun konfigurasi server dengan memberikan alamat port yaitu 12000. lalu mengatur komunikasi menggunakan IPv4 dan menggunakan TCP. lalu server memulai mendengarkan koneksi masuk sebanyak 5 antrian. tahap berikutnya masuk pada looping dimana ini digunakan untuk terus menerima koneksi. code accept() digunakan untuk menerima koneksi dari client, menghasilkan socket baru dan alamat client. yang kemudian menerima data request dari client sebesar 1024 byte lalu mengubah bytes ke string dan mengambil path file dari HTTP request. selanjutnya code menghapus karakter / di awal untuk mendapatkan nama file lalu membuka dan membaca isi file dan server akan mengirimkan respon tertentu sesuai kondisi saat itu sesuai permintaan client. setelah selesai menutup socket server melalui serverSocket.close() dan sys.exit(). berikut dibawah ini penerapan yang bisa ditunjukan yaitu.</div>
+    <img src="../assets/week9/output 2.png" width="400" height="300">
