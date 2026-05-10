@@ -11,11 +11,15 @@
 
 # C. apa itu ICMP, MTU, dan TTL
 <div align="justify">Selanjutnya adalah selain mempelajari IP terdapat beberapa istilah lainnya seperti ICMP yang merupakan protokol lapisan jaringan yang digunakan oleh perangkat jaringan untuk mengirim pesan kesalahan. contoh yang biasa diterapkan biasanya adalah ping atau seperti sebelumnya yaitu traceroute.</div>
-<div align="justify"> --- </div>
+<br>
 <div align="justify">lalu ada MTU atau kepanjangannya adalah maximum transmission unit. dimana ini merupaka ukuran terbesar dari frame atau paket data yang dapat dikirimkan melalui koneksi jaringan. biasanya fungsinya adalah mengatur ukuran paket agar sesuai dengan kapasitas perangkat keras yang dimiliki.</div>
-<div align="justify"> --- </div>
-<div align="justify"> Dan terakhir ada Time to Live ini merupakan paket data yang menentukan berapa lama atau berapa banyak hop paket itu diizinkan di jaringan. biasanya ini digunakan untuk mencegah paket data berputar tanpa akhir di jaringan jika terjadi kesalahan rute.</div>
+<br>
+<div align="justify"> Dan terakhir ada Time to Live ini merupakan paket data yang menentukan berapa lama atau berapa banyak hop paket itu diizinkan di jaringan. biasanya ini digunakan untuk mencegah paket data berputar tanpa akhir di jaringan jika terjadi kesalahan rute. berikut dibawah ini contoh implementasi untuk melihat ICMP dari file yang sudah disediakan sebelumnya. seperti pada gambar dibawah didapat salah satu paket dengan ttl dengan bernilai 3 yang berarti bahwa paket Echo atau ping request tersebut dikirim dengan batasan 3 hop.</div>
+    <img src="../assets/week10/5.png" width="400" height="300">
 
 # D. Mencari Contoh Fragmentasi di Wireshark
-
+<div align="justify"> Selanjutnya adalah memuat contoh untuk fragmentasi dalam wireshark dengan menggunakan fitur filter. berikut dibawah ini implementasi yang bisa dibuat.</div>
+    <img src="../assets/week10/6.png" width="400" height="150">
+<div align="justify"> Untuk mengetahui fragmentasi pada wireshark yang bisa dilakukan adalah memuat ping pada cmd dengan besar byte yang dikirim diatas 1500, sebagai contoh yang dibuat disini saya set 1600 pada google. dan muncul seperti pada dibawah ini.</div>
+    <img src="../assets/week10/7.png" width="400" height="150">
 # E. Mencari IPv6 di Wireshark
