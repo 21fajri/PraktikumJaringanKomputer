@@ -21,5 +21,8 @@
 <div align="justify"> Selanjutnya adalah memuat contoh untuk fragmentasi dalam wireshark dengan menggunakan fitur filter. berikut dibawah ini implementasi yang bisa dibuat.</div>
     <img src="../assets/week10/6.png" width="400" height="150">
 <div align="justify"> Untuk mengetahui fragmentasi pada wireshark yang bisa dilakukan adalah memuat ping pada cmd dengan besar byte yang dikirim diatas 1500, sebagai contoh yang dibuat disini saya set 1600 pada google. dan muncul seperti pada dibawah ini.</div>
-    <img src="../assets/week10/7.png" width="400" height="150">
+    <img src="../assets/week10/7.png" width="400" height="70">
+    
 # E. Mencari IPv6 di Wireshark
+<div align="justify">Selanjutnya adalah mencoba mencari IPv6 di wireshark setelah melakukan penerapannya dengan menggunakan filter "ipv6". dengan menggunakan file sample yang diberikan. terdapat beberapa source dan destination yang terbaca setelah melakukan filter tersebut.</div>
+    <img src="../assets/week10/8.png" width="400" height="200">
