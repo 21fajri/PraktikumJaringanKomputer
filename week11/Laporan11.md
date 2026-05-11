@@ -2,7 +2,7 @@
 
 # A. Apa itu DHCP ?
 
-<div align="justify">Sebelum mengetahui apa itu DHCP mungkin terlebih dahulu harus mengetahui kepanjangannya, DHCP sendiri itu adalah Dynamic Host Configuration Protocol. ini biasa digunakan oleh banyak jaringan LAN dimana ia memberikan IP secara otomatis oleh router atau penyedia DHCP sehingga meminimalisirkan terjadinya tabrakan IP antar clientnya. berikut dibawah ini contoh untuk melihat IP yang diberikan oleh router dijarinagnn LAN adalah masuk pada network connection lalu memilih jaringan yang saat ini terhubung. contoh seperti dibawah gambar ini. ia mendaptkan IP "10.218.6.166" dengan dns servernya yaitu "10.217.7.77".</div>
+<div align="justify">Sebelum mengetahui apa itu DHCP mungkin terlebih dahulu harus mengetahui kepanjangannya, DHCP sendiri itu adalah Dynamic Host Configuration Protocol. ini biasa digunakan oleh banyak jaringan LAN dimana ia memberikan IP secara otomatis oleh router atau penyedia DHCP sehingga meminimalisirkan terjadinya tabrakan IP antar clientnya. berikut dibawah ini contoh untuk melihat IP yang diberikan oleh router dijaringan LAN adalah masuk pada network connection lalu memilih jaringan yang saat ini terhubung. contoh seperti dibawah gambar ini. ia mendaptkan IP "10.218.6.166" dengan dns servernya yaitu "10.217.7.77".</div>
     <img src="../assets/week11/2.png" width="600" height="200">
     <img src="../assets/week11/3.png" width="600" height="200">
 
