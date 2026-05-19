@@ -8,7 +8,13 @@
    - Untuk melakukan pelacakan aktivitas koneksi di setiap titik.
    - Memberikan sinyal jika paket data terlalu lama berada di dalam jaringan sebelum sampai ke tujuan.
 
+2. **Bagaimana cara kerja ICMP**
+<div align="justify">ICMP merupakan protokol tanpa koneksi karena ia tidak terkait dengan protokol lapisan transport seperti TCP dan UDP. jadi satu perangkat tidak perlu membuka koneksi dengan perangkat lain sebelum mengirim pesan ICMP. Lalu lintas IP normal dikirim menggunakan TCP, yang berarti setiap dua perangkat yang bertukar data pertama akan melakukan hand shake TCP untuk memastikan kedua perangkat siap menerima data. ICMP tidak membuka koneksi dengan cara itu.</div>
+
 # A. Pesan ICMP yang dihasilkan oleh program Ping.
+
+<div align="justify"> Langkah pertama untuk mengimplementasikan pesan ICMP yang dihasilkan program ping adalah membuka command terminal windows. kemudian mengetikkan syntax yait ping 8.8.8.8 atau jika ingin melihat hanya beberapa baris berarti syntax yang digunakan harus lebih spesifik. contohnya adalah ping -n 10 8.8.8.8 dimana -n itu adalah merupakan batas maksimal yang dapat dijalankan oleh terminal sedangkan 10 adalah nilai atau jumlah x yang ingin ditentukan seberapa banyak baris untuk ngetrack pesan pingnya. seperti pada contoh gambar dibawah ini terdapat beberapa pesan yang sempurna atau jaringan sedang berjalan dengan normal tanpa terjadi request time out yang berarti beberapa data hilang.</div>
+    <img src="../assets/week12/3" width="600" height="200">
 
 # B. Pesan ICMP yang dihasilkan oleh program Traceroute.
 
