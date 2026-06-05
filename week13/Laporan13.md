@@ -7,7 +7,7 @@
 <div align="justify">Cara kerja dari Address Resolution Protocol ini adalah Saat sebuah perangkat ingin mengirim data ke perangkat lain dalam jaringan lokal, ia hanya mengetahui alamat IP tujuanya saja, sedangkan pengiriman data di tingkat data link layer ia membutuhkan alamat MAC. maka proses terjadinya ia adalah yang pertama Perangkat pengirim akan memeriksa tabel memori lokalnya untuk melihat apakah alamat MAC tujuan sudah tercatat. kemudian Jika tidak ditemukan, perangkat akan mengirimkan pesan broadcast yang berisikan pertanyaan biasanya kurang lebih seperti ini "Siapa pemilik alamat IP ini?" lalu terakhir  Perangkat yang memiliki alamat IP yang dimaksud akan merespons balik dan memberikan informasi alamat MAC miliknya.</div>
     <img src="../assets/week13/Osi.jpg" width="600" height="250">
 
-2. **Implementasi Praktikum ARP**
+2. **Implementasi Praktikum**
 <div align="justify">1.1 Langkah pertama yang harus dilakukan adalah membuka cmd dengan mode administrator untuk menjalankan syntax arp -d * untuk menghapus semua tabel ARP yang berisikan informasi alamat MAC yang harus digunakan sebagai tujuan fisik pada frame data yang akan dikirim. dikarenakan pada saat implementasi terjadi sebuah masalah maka alternatif yang digunakan saya saat itu adalah dengan syntax netsh interface ip delete arpcache yang memiliki kegunaan yang sama seperti syntax sebelumnya lalu selanjutnya diteruskan dengan menuliskan syntax arp -a untuk  menampilkan seluruh daftar tabel ARP untuk memastikan syntax berjalan dengan baik.</div>
     <img src="../assets/week13/1.png" width="600" height="250">
 
