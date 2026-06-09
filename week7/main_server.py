@@ -1,14 +1,30 @@
+from email import header
 import socket
 import threading
 import json
 import struct
+from turtle import mode
 
 HOST = "0.0.0.0"
-PORT = 5000
+PORT = 9191
 VERIFY_PASSWORD = True
 
 clients = {}
 lock = threading.Lock()
+
+
+def main_server():
+    server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    server.bind((HOST, PORT))
+    server.listen()
+
+    print("Server multithread berjalan di", HOST, PORT)
+
+    while True:
+        client_sock, addr = server.accept()
+        thread = threading.Thread(target=handle_client, args=(client_sock, addr))
+        thread.daemon = True
+        thread.start()
 
 
 def recv_exact(sock, size):
@@ -104,19 +120,14 @@ def forward_message(header, payload):
             failed.append(target)
             continue
 
-        if VERIFY_PASSWORD:
+        if VERIFY_PASSWORD and mode != "broadcast":
             target_password_hash = target_data.get("password_hash", "")
+            sent_password_hash = password_hashes.get(target, "")
 
-            if mode == "broadcast":
-                sent_password_hash = password_hashes.get("__broadcast__", "")
-                
-            else:
-                sent_password_hash = password_hashes.get(target, "")
-            
             if sent_password_hash != target_password_hash:
                 failed.append(target + " password salah")
                 continue
-            
+
         new_header = dict(header)
         new_header["action"] = "receive"
         new_header.pop("password_hashes", None)
@@ -221,21 +232,6 @@ def handle_client(sock, addr):
             except:
                 pass
 
-
-def start_server():
-    server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    server.bind((HOST, PORT))
-    server.listen()
-
-    print("Server multithread berjalan di", HOST, PORT)
-
-    while True:
-        client_sock, addr = server.accept()
-        thread = threading.Thread(target=handle_client, args=(client_sock, addr))
-        thread.daemon = True
-        thread.start()
-
-
 if __name__ == "__main__":
-    start_server()
+    main_server()
     

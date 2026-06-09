@@ -5,9 +5,82 @@ import struct
 import hashlib
 import os
 import time
+from turtle import mode
 
-DEFAULT_HOST = "127.0.0.1"
-DEFAULT_PORT = 5000
+HOST = "10.218.8.109"
+PORT = 12345
+
+def start_client():
+    host = input("Host server : ").strip()
+    if host == "":
+        host = HOST
+
+    port_input = input("Port server : ").strip()
+    if port_input == "":
+        port = PORT
+    else:
+        port = int(port_input)
+
+    client_name = input("Masukkan nama client: ")
+    password = input("Buat password client ini: ")
+    password_hash = hash_password(password)
+
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    sock.connect((host, port))
+
+    send_packet(sock, {
+        "action": "register",
+        "name": client_name,
+        "password_hash": password_hash
+    })
+
+    header, payload = recv_packet(sock) 
+
+    if not header or not header.get("success"):
+        print("Gagal login:", header.get("message") if header else "Tidak ada respon")
+        sock.close()
+        return
+
+    print(header.get("message"))
+
+    thread = threading.Thread(target=receiver_loop, args=(sock, client_name))
+    thread.daemon = True
+    thread.start()
+
+    while True:
+        print()
+        print("MENU")
+        print("1. Unicast")
+        print("2. Multicast")
+        print("3. Broadcast")
+        print("4. Lihat client online")
+        print("5. Keluar")
+
+        choice = input("Pilih menu: ")
+
+        if choice == "1":
+            send_data(sock, client_name, "unicast")
+
+        elif choice == "2":
+            send_data(sock, client_name, "multicast")
+
+        elif choice == "3":
+            send_data(sock, client_name, "broadcast")
+
+        elif choice == "4":
+            send_packet(sock, {
+                "action": "list_clients"
+            })
+
+        elif choice == "5":
+            send_packet(sock, {
+                "action": "exit"
+            })
+            sock.close()
+            break
+
+        else:
+            print("Pilihan tidak valid")
 
 
 def hash_password(password):
@@ -132,7 +205,7 @@ def choose_content():
             print("Maksimal 5 kata")
             return None, None, None, None
 
-        return "text", "short_words", None, text.encode("utf-8")
+        return "text", "words", None, text.encode("utf-8")
 
     if choice == "2":
         text = input("Masukkan 1 kalimat panjang: ")
@@ -192,7 +265,7 @@ def send_data(sock, client_name, mode):
         targets = [target]
 
     elif mode == "multicast":
-        raw_targets = input("Masukkan tujuan, pisahkan dengan koma. Contoh B,C: ")
+        raw_targets = input("Masukkan tujuan. Contoh B,C: ")
         targets = [target.strip() for target in raw_targets.split(",") if target.strip()] 
 
     elif mode == "broadcast":
@@ -200,22 +273,18 @@ def send_data(sock, client_name, mode):
 
     password_hashes = {}
     if mode == "broadcast":
-        password = input("Masukkan password penerima untuk broadcast: ")
-        password_hashes["__broadcast__"] = hash_password(password)
-    
+        password_hashes["__broadcast__"] = "" 
     else:
-        raw_passwords = input("Masukkan password penerima, pisahkan dengan koma jika lebih dari satu: ")
+        raw_passwords = input("Masukkan password penerima :")
         passwords = [p.strip() for p in raw_passwords.split(",") if p.strip()]
         if len(passwords) == 1:
             for target in targets:
                 password_hashes[target] = hash_password(passwords[0])
-        
         elif len(passwords) == len(targets):
             for i in range(len(targets)):
                 password_hashes[targets[i]] = hash_password(passwords[i])
-        
         else:
-            print("Jumlah password harus 1 atau sama dengan jumlah target")
+            print("Gagal, Coba lagi!")
             return False
     
     data_type, content_type, filename, payload = choose_content()
@@ -235,80 +304,6 @@ def send_data(sock, client_name, mode):
 
     send_packet(sock, header, payload)
     return True
-
-
-def start_client():
-    host = input("Host server default 127.0.0.1: ").strip()
-    if host == "":
-        host = DEFAULT_HOST
-
-    port_input = input("Port server default 5000: ").strip()
-    if port_input == "":
-        port = DEFAULT_PORT
-    else:
-        port = int(port_input)
-
-    client_name = input("Masukkan nama client: ")
-    password = input("Buat password client ini: ")
-    password_hash = hash_password(password)
-
-    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    sock.connect((host, port))
-
-    send_packet(sock, {
-        "action": "register",
-        "name": client_name,
-        "password_hash": password_hash
-    })
-
-    header, payload = recv_packet(sock)
-
-    if not header or not header.get("success"):
-        print("Gagal login:", header.get("message") if header else "Tidak ada respon")
-        sock.close()
-        return
-
-    print(header.get("message"))
-
-    thread = threading.Thread(target=receiver_loop, args=(sock, client_name))
-    thread.daemon = True
-    thread.start()
-
-    while True:
-        print()
-        print("=== MENU CLIENT ===")
-        print("1. Unicast")
-        print("2. Multicast")
-        print("3. Broadcast")
-        print("4. Lihat client online")
-        print("5. Keluar")
-
-        choice = input("Pilih menu: ")
-
-        if choice == "1":
-            send_data(sock, client_name, "unicast")
-
-        elif choice == "2":
-            send_data(sock, client_name, "multicast")
-
-        elif choice == "3":
-            send_data(sock, client_name, "broadcast")
-
-        elif choice == "4":
-            send_packet(sock, {
-                "action": "list_clients"
-            })
-
-        elif choice == "5":
-            send_packet(sock, {
-                "action": "exit"
-            })
-            sock.close()
-            break
-
-        else:
-            print("Pilihan tidak valid")
-
 
 if __name__ == "__main__":
     start_client()
